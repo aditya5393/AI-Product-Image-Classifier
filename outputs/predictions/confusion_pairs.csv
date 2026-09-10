@@ -1,0 +1,7 @@
+true_class,predicted_class,count,percentage_of_errors
+Home,Electronics,72,38.70967741935484
+Electronics,Home,58,31.182795698924732
+Apparel,Electronics,19,10.21505376344086
+Apparel,Home,17,9.13978494623656
+Electronics,Apparel,10,5.376344086021505
+Home,Apparel,10,5.376344086021505

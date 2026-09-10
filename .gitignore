@@ -1,0 +1,53 @@
+# ============================================================
+# AI Product Image Classifier — Git Ignore
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Large Dataset Files — DO NOT UPLOAD
+# ============================================================
+
+dataset/
+*.tar
+*.tar.gz
+*.zip
+
+# ABO dataset archives
+abo-images-small.tar
+abo-listings.tar
+
+# Extracted image folders
+selected_images/
+train/
+validation/
+test/
+
+# ============================================================
+# Temporary / cache files
+# ============================================================
+
+*.tmp
+*.temp
+*.log
+
+# TensorFlow / ML cache
+.keras/
+.tensorflow/
