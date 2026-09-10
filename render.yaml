@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ai-product-image-classifier
+    runtime: python
+    plan: free
+    buildCommand: pip install -r app/requirements.txt
+    startCommand: python app/app.py
+    envVars:
+      - key: GRADIO_SERVER_NAME
+        value: 0.0.0.0
+      - key: GRADIO_SERVER_PORT
+        value: 10000
